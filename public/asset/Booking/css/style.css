@@ -1,0 +1,173 @@
+* { padding: 0; margin: 0; outline: none!important; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+html, body { height: 100%; background: #4b4e57; }
+
+.box-shell { width: 660px; margin: 0 auto; padding: 30px; }     
+
+.external-link,
+.property-box-nav a { -webkit-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; }
+
+.property-box { background: #f4f7fb; border-radius: 8px; width: 100%; padding-top: 75%; position: relative; font-family: 'Open Sans', sans-serif; }
+.property-box-inner { position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden; border-radius: 8px;}
+
+.property-box-nav { position: absolute; top: 0; left: 0; width: 19.16666%; height: 100%; z-index: 2; border-top-left-radius: 8px; border-bottom-left-radius: 8px; overflow: hidden;}
+.property-box-nav ul { list-style: none; display: block; height: 100%;}
+.property-box-nav li { height: 20%; display: block; background: #31a66c; }
+.property-box-nav a { background-color: #31a66c; background-repeat: no-repeat; background-position: center center; display: block; height: 100%; opacity: 0.65; font-size: 0; line-height: 0; text-indent: -4000px; }
+.property-box-nav .active,
+.property-box-nav a:hover { opacity: 1; background-color: #3ac37f; }
+
+.property-box-nav li:nth-child(1) a { background-image: url(images/pb-icon1.png); }
+.property-box-nav li:nth-child(2) a { background-image: url(images/pb-icon2.png); }
+.property-box-nav li:nth-child(3) a { background-image: url(images/pb-icon3.png); }
+.property-box-nav li:nth-child(4) a { background-image: url(images/pb-icon4.png); }
+.property-box-nav li:nth-child(5) a { background-image: url(images/pb-icon5.png); }
+
+.property-box-post { padding: 0 5.8333% 0 25.5%; }
+
+.property-box-post-head { border-bottom: 1px solid #e1e1e1; padding: 7.3333% 0 6.8%; }
+.property-box-post-head p { color: #373a40; font-size: 24px; line-height: 1.3em; font-weight: 600; }  
+
+.property-box-post-meta { padding: 5.5555% 0; border-bottom: 1px solid #e1e1e1; }
+.property-box-post-meta ul { list-style: none; overflow: hidden; }
+.property-box-post-meta li { float: left; width: 25%; text-align: center; color: #8b8e97; font-size: 13px; text-transform: uppercase; font-weight: 600;}
+.property-box-post-meta strong { display: block; font-size: 22px; color: #373a40; }
+.property-box-post-meta small { font-size: 15px; font-weight: 600; text-transform: none;}
+
+.property-box-post-content { margin: 3.3333% 0; }
+.property-box-post-content p { font-size: 14px; line-height: 24px; color: #4b4e57; }
+.property-box-post-content .ui-datepicker-inline { width: 100%; border: 0; background: transparent; }
+
+.property-box .ui-widget { font-family: 'Open Sans', sans-serif; color: #373a40;}
+.property-box .ui-datepicker-title { font-size: 24px; font-weight: 600; }
+.property-box .ui-datepicker-header { background: transparent; border: 0; }
+.property-box .ui-datepicker-prev-hover,
+.property-box .ui-datepicker-prev,
+.property-box .ui-datepicker-next-hover,
+.property-box .ui-datepicker-next { background: transparent; border: 0; top: 10px; }
+
+.property-box .ui-datepicker-prev .ui-icon { cursor: pointer; background: url(images/pb-arrow-left.png) no-repeat center center; margin: -16px 0 0 -16px; width: 32px; height: 32px; }
+.property-box .ui-datepicker-next .ui-icon { cursor: pointer; background: url(images/pb-arrow-right.png) no-repeat center center; margin: -16px 0 0 -16px; width: 32px; height: 32px; }
+
+.property-box .ui-datepicker-calendar { border-top: 1px solid #e1e1e1; }
+.property-box .ui-datepicker th { font-weight: 400; }
+
+.property-box-post-content-inner { max-height: 200px; overflow: auto; }
+
+.property-box-calendar { padding-left: 19.1667%; }
+
+.details-list { list-style: none; }
+.details-list li { font-size: 18px; line-height: 26px; color: #373a40; font-weight: 600; margin: 7px 0 18px; padding-left: 25.4854%; position: relative; }
+.details-list span { text-transform: uppercase; font-size: 13px; color: #8b8e97; position: absolute; top: 0; left: 0; width: 21.8446%; text-align: right; }
+.details-list a { color: #31a66c; text-decoration: none;}
+.details-list a:hover { text-decoration: underline;}
+
+.address { display: none; }
+
+.customMap { width: 100%; height: 100%; position: absolute; top: 0; left: 0; border-top-left-radius: 8px; border-bottom-left-radius: 8px; overflow: hidden;}
+
+.property-box-tabs { height: 100%; position: relative; z-index: 1;}
+
+.property-box-tab { opacity: 0; visibility: hidden; height: 100%; overflow: hidden; position: absolute; top: 0; left: 0; width: 100%;}
+.property-box-tab.active { opacity: 1; visibility: visible; }
+
+.external-link { background-image: url(images/external-link.png); background-color: #31a66c; background-repeat: no-repeat; background-position: center center; position: absolute; bottom: 15px; right: -10px; background-color: rgba(240,133,25,0.85); font-size: 0; line-height: 0; text-indent: -4000px; width: 94px; height: 83px; z-index: 3; }  
+.external-link:hover { background-color: rgba(240,133,25,1); }  
+
+.property-box-slideshow .slides > li { display: none; -webkit-backface-visibility: hidden; }
+.property-box-slideshow .slides img { width: 100%; display: block; }
+.property-box-slideshow .slides:after { content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+html[xmlns] .property-box-slideshow .slides { display: block; }
+* html .property-box-slideshow .slides { height: 1%; }
+.no-js .property-box-slideshow .slides > li:first-child { display: block; }
+
+.property-box-slideshow { margin: 0; background: transparent; border: 0; position: relative; zoom: 1; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; -webkit-box-shadow: '' 0 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: '' 0 0px 0px rgba(0, 0, 0, 0); -o-box-shadow: '' 0 0px 0px rgba(0, 0, 0, 0); box-shadow: '' 0 0px 0px rgba(0, 0, 0, 0); height: 100%; margin-left: 19.1667%; }
+.property-box-slideshow .slides { zoom: 1; }
+.property-box-slideshow .slides img { height: auto; }
+.flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -ms-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+.loading .flex-viewport { max-height: 300px; }
+.carousel li { margin-right: 5px; }
+
+.property-box-slideshow  .flex-control-nav {background: #f4f7fb; z-index: 2; width: 100%; height: 15.0555%; padding-right: 5%; padding-top: 4.5%; position: absolute; left: 0; bottom: 0px; text-align: center; }
+.property-box-slideshow  .flex-control-nav li {margin: 0 3px; display: inline-block; zoom: 1; *display: inline; }
+.property-box-slideshow  .flex-control-paging li a {width: 10px; height: 10px; display: block; background: #d1d7de; cursor: pointer; text-indent: -9999px; -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0); -moz-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0); -o-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0); box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3); -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }
+.property-box-slideshow  .flex-control-paging li .flex-active { background: #3ac37f; }
+
+@media (max-width: 660px) { 
+	.box-shell { width: auto; padding: 10px; } 
+}
+
+@media (max-width: 580px) {
+	.property-box-post {padding: 0 3% 0 23%; }
+
+	.property-box-post-head { padding: 6.3333% 0 5.3%; }
+	.property-box-post-head p { font-size: 21px; }
+
+	.property-box .ui-datepicker-title { font-size: 21px; }
+
+	.property-box-post-meta { padding: 5.3% 0; }
+	.property-box-post-meta li {font-size: 12px; }
+	.property-box-post-meta strong {font-size: 14px; }
+	.property-box-post-meta small {font-size: 11px; }
+	
+	.property-box-post-content-inner { max-height: 150px; }
+
+	.property-box-post-content p { font-size: 12px; line-height: 21px; }
+	
+	.external-link { width: 64px; height: 64px; } 
+
+	.property-box-nav li:nth-child(1) a,
+	.property-box-nav li:nth-child(4) a,
+	.property-box-nav li:nth-child(5) a,
+	.property-box-nav li:nth-child(2) a { background-size: 24px 24px; }
+	.property-box-nav li:nth-child(3) a { background-size: 18px 24px; }
+
+	.details-list li { font-size: 13px; line-height: 21px; margin: 7px 0 13px; padding-left: 26.4854%; }
+	.details-list span { font-size: 11px; width: 22.8446%; }
+
+	.property-box-slideshow { margin: 0 0 0 19% }
+}
+
+@media (max-width: 479px) {
+	.property-box-nav li:nth-child(1) a,
+	.property-box-nav li:nth-child(4) a,
+	.property-box-nav li:nth-child(5) a,
+	.property-box-nav li:nth-child(2) a { background-size: 16px 16px; }
+	.property-box-nav li:nth-child(3) a { background-size: 12px 16px; }
+
+	.property-box-post-head { padding: 5.5% 0; }
+	.property-box .ui-datepicker-title,
+	.property-box-post-head p { font-size: 16px; }
+	
+	.property-box-post-meta { padding: 5.3% 0 4%; }
+	.property-box-post-meta li { font-size: 9px; }
+	.property-box-post-meta strong { font-size: 12px; }
+	.property-box-post-meta small { font-size: 10px; }
+
+	.property-box-post-content p { font-size: 11px; line-height: 18px; }
+
+	.property-box-post-content-inner { max-height: 120px; }
+
+	.external-link { width: 42px; height: 42px; background-size: 16px 16px; } 
+
+	.property-box-slideshow .flex-control-nav { height: 14.5555%; padding-top: 4%; }
+
+	.details-list li { font-size: 12px; line-height: 18px; margin: 7px 0 8px; padding-left: 30.4854%; }
+	.details-list span { font-size: 10px; width: 26.8446%; }
+
+	.ui-datepicker table { font-size: 12px; }
+
+	.property-box .ui-datepicker-prev-hover,
+	.property-box .ui-datepicker-prev,
+	.property-box .ui-datepicker-next-hover,
+	.property-box .ui-datepicker-next { top: 3px; }
+
+	.property-box-post-content .ui-datepicker-inline { padding: 0; }
+}
+
+@media (max-width: 320px) {
+	.property-box-post-content-inner { max-height: 110px; }
+
+	.details-list li { padding-left: 32.4854%; margin-bottom: 4px; }
+	.details-list span { width: 28.8446%; }
+}

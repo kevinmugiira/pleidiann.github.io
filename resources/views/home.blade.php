@@ -47,7 +47,7 @@
         <div class="w3ls_gallery_grids row">
             <div class="col-md-3 w3_section_1_gallery_grid">
                 <div class="section_1_gallery_grid">
-                    <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="{{url('athi')}}" class="img-fluid">
+                    <a title="Athi." href="{{url('athi')}}" class="img-fluid">
                         <div class="section_1_gallery_grid1">
                             <img src="{{asset('asset/images/toka.jpg')}}" alt=" " class="img-responsive img-fluid" />
                             <div class="w3layouts_gallery_grid1_pos">
@@ -58,7 +58,7 @@
                     </a>
                 </div>
                 <div class="section_1_gallery_grid">
-                    <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="{{url('athioasis')}}" class="img-fluid">
+                    <a title="Athi Oasis." href="{{url('athioasis')}}" class="img-fluid">
                         <div class="section_1_gallery_grid1">
                             <img src="{{asset('asset/images/business.jpg')}}" alt=" " class="img-responsive img-fluid" />
                             <div class="w3layouts_gallery_grid1_pos">
@@ -69,7 +69,7 @@
                     </a>
                 </div>
                 <div class="section_1_gallery_grid">
-                    <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="{{url('bypassmugetho')}}" class="img-fluid">
+                    <a title="Mugetho Bypass." href="{{url('bypassmugetho')}}" class="img-fluid">
                         <div class="section_1_gallery_grid1">
                             <img src="{{asset('asset/images/OUT.jpg')}}" alt=" " class="img-responsive img-fluid" />
                             <div class="w3layouts_gallery_grid1_pos">
@@ -82,18 +82,18 @@
             </div>
             <div class="col-md-3 w3_section_1_gallery_grid">
                 <div class="section_1_gallery_grid">
-                    <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="{{url('gwakairu')}}" class="img-fluid">
+                    <a title="Gwa Kairu already taken." href="{{url('gwakairu')}}" class="img-fluid">
                         <div class="section_1_gallery_grid1">
                             <img src="{{asset('asset/images/IMG_5440.jpg')}}" alt=" " class="img-responsive img-fluid" />
                             <div class="w3layouts_gallery_grid1_pos">
-                                <h3>Gwa Kairu</h3>
+                                <h3>Gwa Kairu - unavailable</h3>
                                 <p> </p>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="section_1_gallery_grid">
-                    <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="{{url('judah')}}" class="img-fluid">
+                    <a title="Judah Bypass." href="{{url('judah')}}" class="img-fluid">
                         <div class="section_1_gallery_grid1">
                             <img src="{{asset('asset/images/IMG_5440.jpg')}}" alt=" " class="img-responsive img-fluid" />
                             <div class="w3layouts_gallery_grid1_pos">
@@ -104,7 +104,7 @@
                     </a>
                 </div>
                 <div class="section_1_gallery_grid">
-                    <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="{{url('kwamurage')}}" class="img-fluid">
+                    <a title="kwa Murage." href="{{url('kwamurage')}}" class="img-fluid">
                         <div class="section_1_gallery_grid1">
                             <img src="{{asset('asset/images/IMG_5502.jpg')}}" alt=" " class="img-responsive img-fluid" />
                             <div class="w3layouts_gallery_grid1_pos">
@@ -117,7 +117,7 @@
             </div>
             <div class="col-md-3 w3_section_1_gallery_grid">
                 <div class="section_1_gallery_grid">
-                    <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="{{url('murerabypass')}}" class="img-fluid">
+                    <a title="Murera Bypass." href="{{url('murerabypass')}}" class="img-fluid">
                         <div class="section_1_gallery_grid1">
                             <img src="{{asset('asset/images/1738.jpg')}}" alt=" " class="img-responsive img-fluid" />
                             <div class="w3layouts_gallery_grid1_pos">
@@ -128,18 +128,18 @@
                     </a>
                 </div>
                 <div class="section_1_gallery_grid">
-                    <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="{{url('mureramagomano')}}" class="img-fluid">
+                    <a title="Murera Magomano." href="{{url('mureramagomano')}}" class="img-fluid">
                         <div class="section_1_gallery_grid1">
                             <img src="{{asset('asset/images/imag.jpeg')}}" alt=" " class="img-responsive img-fluid" />
                             <div class="w3layouts_gallery_grid1_pos">
                                 <h3>Murera Magomano</h3>
-                                <p> l</p>
+                                <p> </p>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="section_1_gallery_grid">
-                    <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="{{url('mwireri')}}" class="img-fluid">
+                    <a title="Mwireri." href="{{url('mwireri')}}" class="img-fluid">
                         <div class="section_1_gallery_grid1">
                             <img src="{{asset('asset/images/MEdia.jpg')}}" alt=" " class="img-responsive img-fluid" />
                             <div class="w3layouts_gallery_grid1_pos">
@@ -153,22 +153,22 @@
 
             <div class="col-md-3 w3_section_1_gallery_grid">
                 <div class="section_1_gallery_grid">
-                    <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="{{url('ndarasha')}}" class="img-fluid">
+                    <a title="Ndarasha already taken." href="{{url('ndarasha')}}" class="img-fluid">
                         <div class="section_1_gallery_grid1">
                             <img src="{{asset('asset/images/land-in.jpg')}}" alt=" " class="img-responsive img-fluid" />
                             <div class="w3layouts_gallery_grid1_pos">
-                                <h3>Ndarasha</h3>
+                                <h3>Ndarasha - unavailable</h3>
                                 <p> </p>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="section_1_gallery_grid">
-                    <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="{{url('ndurumo')}}" class="img-fluid">
+                    <a title="Ndurumo already taken." href="{{url('ndurumo')}}" class="img-fluid">
                         <div class="section_1_gallery_grid1">
                             <img src="{{asset('asset/images/18.jpg')}}" alt=" " class="img-responsive img-fluid" />
                             <div class="w3layouts_gallery_grid1_pos">
-                                <h3>Ndurumo</h3>
+                                <h3>Ndurumo - unavailable</h3>
                                 <p> </p>
                             </div>
                         </div>

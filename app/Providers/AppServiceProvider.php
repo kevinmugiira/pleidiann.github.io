@@ -23,6 +23,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        //added for database hosting this
+        Schema::defaultStringLength(191);
     }
 }
